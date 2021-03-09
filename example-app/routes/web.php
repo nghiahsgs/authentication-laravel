@@ -1,6 +1,7 @@
 <?php
-
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+use App\Models\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -31,4 +32,16 @@ Route::group([
     Route::get("/test",function(){
         return "test";
     })->name("test");
+});
+
+Route::get('/test',function(){
+    return User::get()[0];
+});
+
+
+Route::get('/get_token',function(){
+    // token lay o ben blade, goi len api
+    // $user = Auth::user();
+    // return $user->api_token;
+    return View("get_token");
 });
