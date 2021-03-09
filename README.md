@@ -16,14 +16,14 @@ tham khao tao: https://longnv.name.vn/lap-trinh-laravel/authentication-va-middle
 + Tóm lại các chức năng tận răng, càn chỉnh sửa thì vào link trên đọc
 + nhớ là cho lại link bootstrap vào trong app.blade.php
 
-# nhưng chưa có được authen cho api
-## token lay o ben blade php => sau do cho len api call
-
 ```html
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 ```
+# nhưng chưa có được authen cho api
+## token lay o ben blade php => sau do cho len api call
+
 
 ## Lấy thông tin của user đã đăng nhập
 ```php
